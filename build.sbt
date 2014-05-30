@@ -18,7 +18,9 @@ libraryDependencies ++= Seq(
   "com.typesafe"%"config"%"1.2.1",
   "org.slf4j" % "slf4j-api" % "1.7.1",
   "org.slf4j" % "log4j-over-slf4j" % "1.7.1",
-  "mysql"%"mysql-connector-java"%"5.1.29"
+  "org.slf4j" % "slf4j-simple" % "1.7.7",
+  "mysql"%"mysql-connector-java"%"5.1.29",
+  "com.h2database" % "h2" % "1.4.178"
 )
 
 Revolver.settings
