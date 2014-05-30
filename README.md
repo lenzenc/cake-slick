@@ -31,6 +31,7 @@ the cake pattern.
     
 This sample application also has the "sbt-revolver" plugin so if you want sbt to automatically re-compile you can use the
 following command;
+
     sbt
     > ~ re-start
     
